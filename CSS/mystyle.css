@@ -1,0 +1,219 @@
+*{ 
+  margin:0;
+  padding:0;
+  box-sizing: border-box; 
+  font-family:'Dosis ',cursive; /** style for all pages**/
+}
+body{
+	background-color:#0B0C10 ;
+	color:#C5C6C7;
+}
+
+.imgset{ /** style for the homepage images**/
+	width:550px;
+	height:350px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.center{ /** logo style**/
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:350px;
+	height:420px;
+}
+
+.navhead-centered{
+	float:right;
+}
+.navhead a, .navhead-centered{
+	float:left;
+	display:block;
+	font-family: "Sofia", sans-serif;
+}
+ul{
+	list-style:none;
+	margin-left:70px;
+	padding:3px;
+	position:fixed;
+	
+}
+a:link, a:visited{ /** link style for all links on the site**/
+	display:block;
+	width:230px;
+	height:50px;
+	background-color:#1F2833;
+	color:#66FCF1;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:5px;
+	
+}
+
+a:hover, a:active{
+	background-color:#45A293;
+}
+li{
+ display:inline;
+}
+.membership-form{ /** form style for all forms on the site**/
+	width:1300px;
+	border:3px solid white;
+	padding:5px;
+	margin:100px;
+	background-color:#1F2833;
+	outline-style:dashed;
+	text-align:center;
+}
+h1,h2{
+	text-align:center;
+}
+td{
+	padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-spacing:30px;
+}
+footer {	
+	left:0;
+	bottom:0;
+	width:100%;
+	color:#66FCF1;
+	text-align:center;
+	background-color:#1F2833;
+	height:30px;
+	float:left;
+}
+.gallery-container{ /** style for the gallery images and grid (code borrowed from w3schools**/
+	display:grid;
+	grid-template-columns:auto auto;
+	background-color:#0B0C10;
+	padding:1px;
+}
+
+
+gallery-image{
+	border:1px  #6f1a07;
+	
+	padding:1px;
+
+}
+img:hover{
+	border:5px solid #45A293;
+}
+ 
+}
+div.mission{ /** style for mission statement on the about us page **/
+	border:1px solid black;
+	padding:10px;
+	text-align:center;
+	width:800px;
+	height:400px;
+	margin:auto;
+	outline-style:dashed;
+	
+.imageSlides {
+  display: none
+}
+ 
+img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+ 
+/* Our main images-slideshow container */
+.images-slideshow {
+  max-width: 612px;
+  position: relative;
+  margin: auto;
+}
+ 
+/*Style for ">" next and "<" previous buttons */
+.slider-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+ 
+/* setting the position of the previous button towards left */
+.previous {
+  left: 2%;
+}
+ /* setting the position of the next button towards right */
+.next {
+  right: 2%;
+}
+ 
+/* On hover, adding a background color */
+.previous:hover,
+.next:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgba(0, 0, 0, 0.8);
+	
+}
+div.creator_img  {
+  border-radius: 50%;
+  
+  
+}
+/*<!--------------------------------FOOTER---------------------------------------------->*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+/*<!--------------------------------FOOTER---------------------------------------------->*/
+
+
+
+
+
+
+

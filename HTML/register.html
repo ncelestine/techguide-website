@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+	<head>
+	<meta charset="UTF-8">
+		<title>Website deisgn final project</title>
+	<link rel="stylesheet" href="../CSS/mystyle.css">
+	</head>
+	
+<body>
+<!-- navigation bar -->
+		<nav class="navhead">		
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../HTML/gallery.html">Gallery</a></li>
+					<li><a href="../HTML/about.html">About Us</a></li>
+					<li><a href="../HTML/contact.html">Contact</a></li>
+					<li><a href="../HTML/register.html">Register</a></li>
+					<li><a href="../HTML/login.html">Login</a></li>
+				
+				</ul>
+		</nav>	
+<!-- site logo-->		
+		<img src="../IMG/logo1.png" alt="img1" class="center">
+		
+	<div class="membership-form">
+	<h1> Memebership/User registration</h1>
+	<h2>Want to become a member and have your electronic store promoted on the webtsite? Or are you only interested in getting emails about discounts and preorders? 
+	Then register below.</h2>
+	<h2>Once your registration information meets all the requirments, it will be processed and a representative will contact you within 3 business days.</h2>
+
+<!-- form for registration that calls the success page -->	
+	<form action="../HTML/success.html" target="_blank" method="get">
+	<fieldset><!--fieldset and legend for basic information-->
+		<legend><strong>User:</strong></legend>
+		<br>
+		Title:<select name="Title">
+			<option>Mrs</option>
+			<option>Mr</option>
+			<option>Dr</option>
+			<option>Sir</option>
+			<option>Lady</option>
+			<option>Ms</option>
+			</select>
+		<label for="name">Name:</label >
+			<input  type="text" id="name" name="name" placeholder="your first name" size="25" required >
+			<input type="text" id="lastname" name="lastname" placeholder="your last name" size="25" required><br><br>
+		<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" placeholder="1234356" required >
+			<br>
+			<br>
+		<label for="E-mail">E-mail:</label>
+			<input type="email" id="E-mail" name="email" size="25" placeholder="my@example.com" required><br><br>
+		<p>Choose a store you'd like to get emails of discounts and preorders from</p><br>
+		<select select="store">
+		<option>Newegg</option>
+		<option>Amazon</option>
+		<option>BestBuy</option>
+		</select>
+		<br><br>
+		Type of items you'd like to get discounts and preorders for:<br>
+		<input type="checkbox" name="choice" value="cb1"> Laptops <br>
+			<input type="checkbox" name="choice" value="cb2"> Phones <br> 
+			<input type="checkbox" name="choice" value="cb3"> Phone accessories<br>
+			<input type="checkbox" name="choice" value=" cb4">Electronic home appliances<br><br>
+		</fieldset>
+<!--fieldset and legend for personal information-->	
+		<fieldset>
+		<legend><strong>Membership:</strong></legend><br>
+		<label for="birthday">Birthday:</label><br>
+			<input type="date" id="birthday" name="birthday" size="25"  required><br><br>
+		<label for="gender">Gender:</label><br>
+		
+			<input type="radio" id="male" name="choice" value="Male">
+		<label for="male">Male</label><br>
+			<input type="radio" id="female" name="choice" value="Female">
+		<label for="female">Female</label><br>
+		
+			<p> Is your online store selling electronics?</p>
+			<input type="radio" id="Yes" name="choice" value="Yes">
+		<label for="yes">Yes</label><br>	
+		<input type="radio" id="NO" name="choice" value="No">
+		<label for="no">No</label><br>
+		
+			<p> Is your store a niche electronic store or a large company?</p>
+			<input type="radio" id="niche" name="choice" value="niche store">
+		<label for="niche store	">Niche store</label><br>
+			<input type="radio" id="Large Company" name="choice" value="niche store">
+		<label for="Large Company">Large  Company</label><br>
+		
+		<p>If your answer was 'niche store' to the previous question,are you willing to comission a reasonable fee to promote your store via this website?</p>
+			<input type="radio" id="yes" name="choice" value="Yes">
+		<label for="yes">Yes</label><br>	
+			<input type="radio" id="No" name="choice" value="No">
+		<label for="no">No</label><br><br>
+		
+		<p>Are you willing to give notice to our users about discounts and item preorders if they're interested in shopping at your store?</p>
+			<input type="radio" id="YES" name="choice" value="Yes">
+		<label for="yes">Yes</label><br>
+			<input type="radio" id="no" name="choice" value="No">
+		<label for="no">No</label> 
+		
+			
+			<p><input type="submit" value="Submit">
+		   <input type="reset" value="clear"></P><br>
+	</fieldset>		
+	</form>	
+	
+	</div>
+<!--site footer -->	
+	<footer>
+	<span>Copyright &copy;2022: Techguide</span>
+	</footer>
+</body>
+
+</html>	

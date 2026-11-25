@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+	<head>
+<meta charset="UTF-8">
+		<title>Website deisgn final project</title>
+	<link rel="stylesheet" href="../CSS/mystyle.css">
+	</head>
+	
+<body>
+	<!-- navigation bar-->
+		<nav class="navhead">		
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../HTML/gallery.html">Gallery</a></li>
+					<li><a href="../HTML/about.html">About Us</a></li>
+					<li><a href="../HTML/contact.html">Contact</a></li>
+					<li><a href="../HTML/register.html">Register</a></li>
+					<li><a href="../HTML/login.html">Login</a></li>
+				
+				</ul>
+		</nav>	
+			<img src="../IMG/logo1.png" alt="img1" class="center"><!-- site logo-->
+	<div class="membership-form">
+	<h1><strong> Welcome back!</strong></h1>
+	
+	<h2>Please enter your login information below.</h2>
+	
+	<h2>If you are not a member yet, please visit the register page.</h2><br>
+	
+	<form action="welcome.html" target="_blank" method="get"><!-- form for the login information that also calls the welcome page-->
+		<label for="Username"><strong>Name:</strong></label >
+			<input  type="text" id="Username" name="username" placeholder="your username" size="25" required >
+			<br>
+			<br>
+		<label for="E-mail"><strong>E-mail:</strong></label>
+			<input type="email" id="E-mail" name="email" size="25" placeholder="my@example.com" required>
+			<br>
+			<br>
+		<label for="Password"><strong>Password:</strong></label>
+			<input type="password"  id="Password" name="password" size="25" placeholder="mypassword123" required>
+			<br>
+			<br>
+		<P><input type="submit" value="Submit">
+		   <input type="reset" value="clear"></P>
+	</form>
+	
+	</div>
+	
+	
+	<footer><!--site footer -->
+	<span>Copyright &copy;2022:Techguide</span>
+	</footer>
+</body>
+
+
+</html>	

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+	<head>
+	<meta charset="UTF-8">
+		<title>Website deisgn final project</title>
+	<link rel="stylesheet" href="../CSS/mystyle.css">
+	</head>
+	
+<body>
+		<nav class="navhead">		
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../HTML/gallery.html">Gallery</a></li>
+					<li><a href="../HTML/about.html">About Us</a></li>
+					<li><a href="../HTML/contact.html">Contact</a></li>
+					<li><a href="../HTML/register.html">Register</a></li>
+					<li><a href="../HTML/login.html">Login</a></li>
+				
+				
+				</ul>
+		</nav>	
+			<img src="../IMG/logo1.png" alt="website logo" class="center"><!-- site logo-->
+		<div class="membership-form">
+		<h2>Contact us  by putting in your information and leave some feedback in the box below.</h2>
+		<br>
+		<form action="recieved.html" target="_blank" method="get"><!--form to store the contact information -->
+		<fieldset>
+		<br>
+		<label for="name">Name:</label >
+			<input  type="text" id="name" name="name" placeholder="your first name" size="25" required >
+			<input type="text" id="lastname" name="lastname" placeholder="your last name" size="25" required>
+			<br>
+			<br>
+		<label for="E-mail">E-mail:</label>
+			<input type="email" id="E-mail" name="email" size="25" placeholder="my@example.com" required>	
+			<br>
+			<br>
+		<p>Please share any thoughts,concerns or questions you may have in the space
+			below:</p>
+			<br>
+			<textarea id="textarea" name="textarea" rows="15" cols="40"></textarea>
+			<br>
+			<br>
+			<P><input type="submit" value="Submit">
+			<input type="reset" value="Clear"></P><br>	
+		</fieldset>	
+		</form>	
+		</div>
+		
+		
+		<footer><!--site footer -->
+	<span>Copyright &copy; Techguide</span>
+	</footer>
+</body>
+
+
+</html>	
